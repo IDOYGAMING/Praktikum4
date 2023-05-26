@@ -63,12 +63,12 @@ nilai atau menentukan relasi atau hubungan dari dua buah operand dengan mengguna
 operator sebagai berikut :
 
 
-= (sama dengan),
-> (lebih besar),
-< (kurang dari),
->= (lebih besar sama dengan),
-<= (kurang dari sama dengan), dan
-<> (tidak sama dengan)
+    = (sama dengan),
+    > (lebih besar),
+    < (kurang dari),
+    >= (lebih besar sama dengan),
+    <= (kurang dari sama dengan), dan
+    <> (tidak sama dengan)
 
 
 Agregasi data adalah jenis proses penambahan data dan informasi dimana data dicari, dikumpulkan, dan disajikan dalam format yang dirangkum berdasarkan laporan untuk mencapi tujuan atau proses bisnis tertentu dan / atau melakukan analisis manusia. Beberapa perintah yang digunakan dalam melakukan proses agresiasi adalah :
