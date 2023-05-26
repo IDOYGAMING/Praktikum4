@@ -52,3 +52,20 @@ VALUES ('E006', 'Moco', 'Alima', 'moco@yahoo.com', '08527388432', '2008-09-01', 
 ![gambar](https://github.com/IDOYGAMING/Praktikum4/blob/main/screnshotpraktikum4/ss7.png)
 13. Menampilkan gaji terbesar
 ![gambar](https://github.com/IDOYGAMING/Praktikum4/blob/main/screnshotpraktikum4/ss8.png)
+
+
+
+Kesimpulan :
+
+Operator relasional adalah elemen sintaksis yang dapat menerima satu atau beberapa parameter input
+bernamaatau tidak bernama dan mengembalikan tataan hasil. Operator relasional digunakan sebagai
+sumber tabel dalam pertanyaan DML
+Didalan basis data query filtering sangat membantu dalam memfilter atau membandingkan dua buah
+nilai atau menentukan relasi atau hubungan dari dua buah operand dengan menggunakan perintah
+operator sebagai berikut
+= (sama dengan),
+> (lebih besar),
+< (kurang dari),
+>= (lebih besar sama dengan),
+<= (kurang dari sama dengan), dan
+<> (tidak sama dengan)
