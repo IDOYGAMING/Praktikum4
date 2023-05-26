@@ -57,15 +57,26 @@ VALUES ('E006', 'Moco', 'Alima', 'moco@yahoo.com', '08527388432', '2008-09-01', 
 
 Kesimpulan :
 
-Operator relasional adalah elemen sintaksis yang dapat menerima satu atau beberapa parameter input
-bernamaatau tidak bernama dan mengembalikan tataan hasil. Operator relasional digunakan sebagai
-sumber tabel dalam pertanyaan DML
-Didalan basis data query filtering sangat membantu dalam memfilter atau membandingkan dua buah
+Operator relasional adalah elemen sintaksis yang dapat menerima satu atau beberapa parameter input bernama atau tidak bernama dan mengembalikan tataan hasil. Operator relasional digunakan sebagai sumber tabel dalam pertanyaan DML
+Didalam basis data query filtering sangat membantu dalam memfilter atau membandingkan dua buah
 nilai atau menentukan relasi atau hubungan dari dua buah operand dengan menggunakan perintah
-operator sebagai berikut
+operator sebagai berikut :
+
+
 = (sama dengan),
 > (lebih besar),
 < (kurang dari),
 >= (lebih besar sama dengan),
 <= (kurang dari sama dengan), dan
 <> (tidak sama dengan)
+
+
+Agregasi data adalah jenis proses penambahan data dan informasi dimana data dicari, dikumpulkan, dan disajikan dalam format yang dirangkum berdasarkan laporan untuk mencapi tujuan atau proses bisnis tertentu dan / atau melakukan analisis manusia. Beberapa perintah yang digunakan dalam melakukan proses agresiasi adalah :
+
+COUNT berfungsi untuk menghitung jumlah baris suatu kolom pada tabel,
+SUM berfungsi untuk menghitung jumlah nilai suatu kolom pada table,
+AVG berfungsi untuk menghitung nilai rata-rata dari nilai suatu kolom pada tabel,
+MIN berfungsi untuk menghitung nilai minimal atau terkecil dari suatu kolom pada table,
+MAX berfungsi utnuk menghitung nilai maksimal atau terbesar dari suatu kolom pada table.
+
+Perintah-perintah diatas juga memudahkan untu mencari suatu data dalam sebuah data atau kolom pada tabel yang sangat banyak.
