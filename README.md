@@ -1,13 +1,16 @@
 # Praktikum4
 
 # 1. Membuat database
-my sql: CREATE DATABASE Praktikum4;
+my sql: 
+    CREATE DATABASE Praktikum4;
 
 # 2. Masuk ke database
-my sql: Use Praktikum4;
+my sql: 
+    Use Praktikum4;
 
 # 3. Membuat table
-my sql: CREATE TABLE data_pegawai (
+my sql: 
+    CREATE TABLE data_pegawai (
  idpegawai VARCHAR(4) NOT NULL,
  nama_depan TEXT(10) NOT NULL,
  nama_belakang TEXT(10) NOT NULL,
@@ -20,10 +23,12 @@ my sql: CREATE TABLE data_pegawai (
 );
 
 # 4. Menjadikan nim sebagai primary key
-my sql: ALTER TABLE data_pegawai ADD PRIMARY KEY(idpegawai);
+my sql: 
+    ALTER TABLE data_pegawai ADD PRIMARY KEY(idpegawai);
 
 # 5. Mengisi table data_pegawai
-my sql: INSERT INTO data_pegawai
+my sql: 
+    INSERT INTO data_pegawai
 VALUES ('E001', 'Kelly', 'Fatmawati', 'Kelly@yahoo.com', '07117059004', '2005-09-01', 'L0001',
 '2000000', '500000');
 INSERT INTO data_pegawai
