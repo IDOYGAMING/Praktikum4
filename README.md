@@ -73,7 +73,7 @@ VALUES ('E006', 'Moco', 'Alima', 'moco@yahoo.com', '08527388432', '2008-09-01', 
 
 
 
-Kesimpulan :
+# KESIMPULAN
 
 Operator relasional adalah elemen sintaksis yang dapat menerima satu atau beberapa parameter input bernama atau tidak bernama dan mengembalikan tataan hasil. Operator relasional digunakan sebagai sumber tabel dalam pertanyaan DML
 Didalam basis data query filtering sangat membantu dalam memfilter atau membandingkan dua buah
@@ -89,6 +89,69 @@ operator sebagai berikut :
     <> (tidak sama dengan)
 
 
+# Praktikum 4.1
+# 1. Membuat database
+mySQL:
+CREATE DATABASE Praktikum4_1;
+
+# 2. Masuk ke database
+mySQL:
+Use Praktikum4_1;
+
+# 3. Membuat table
+mySQL:
+CREATE TABLE daftar_hewan (
+ id VARCHAR(5) NOT NULL,
+ nama TEXT(8) NOT NULL,
+ owner VARCHAR(7) NOT NULL,
+ species TEXT(7) NOT NULL,
+ sex TEXT(4) NOT NULL
+);
+
+# 4. Menjadikan nim sebagai primary key
+mySQL:
+ALTER TABLE daftar_hewan ADD PRIMARY KEY(id);
+
+# 5. Mengisi table data_pegawai
+mySQL:
+INSERT INTO daftar_hewan
+VALUES ('p1', 'Puffball', 'Diane', 'Hamster', 'f');
+INSERT INTO daftar_hewan
+VALUES ('p2', 'Claws', 'Gwen', 'cat', 'm');
+INSERT INTO daftar_hewan
+VALUES ('p3', 'Fluffy', 'Haro 1d', 'cat', 'f');
+INSERT INTO daftar_hewan
+VALUES ('p4', 'Buffy', 'Haro 1d', 'dog', 'f');
+INSERT INTO daftar_hewan
+VALUES ('p5', 'Fang', 'Benny', 'dog', 'm');
+INSERT INTO daftar_hewan
+VALUES ('p6', 'Bowser', 'Diane', 'dog', 'm');
+INSERT INTO daftar_hewan
+VALUES ('p7', 'Chirpy', 'Gwen', 'bird', 'f');
+INSERT INTO daftar_hewan
+VALUES ('p8', 'Whistier', 'Gwen', 'bird', 'NULL');
+INSERT INTO daftar_hewan
+VALUES ('p9', 'Slim', 'Benny', 'snake', 'm');
+
+# 6. Menampilkan jumlah hewan yang dimiliki setiap owner
+![gambar](https://github.com/IDOYGAMING/Praktikum4/blob/main/screnshotpraktikum4.1/ss1.png)
+
+# 7. Menampilkan jumlah hewan berdasarkan species
+![gambar](https://github.com/IDOYGAMING/Praktikum4/blob/main/screnshotpraktikum4.1/ss2.png)
+
+# 8. Menampilkan jumlah hewan berdasarkan jenis kelamin
+![gambar](https://github.com/IDOYGAMING/Praktikum4/blob/main/screnshotpraktikum4.1/ss3.png)
+
+# 9. Menampilkan jumlah hewan berdasarkan species dan jenis kelamin
+![gambar](https://github.com/IDOYGAMING/Praktikum4/blob/main/screnshotpraktikum4.1/ss4.png)
+
+# 10. Menampilkan jumlah hewan bedasarkan species (cat dan dog) dan jenis kelamin
+![gambar](https://github.com/IDOYGAMING/Praktikum4/blob/main/screnshotpraktikum4.1/ss5.png)
+
+# 11. Menampilkan jumlah hewan berdasarkan jenis kelamin yang sudah di ketahui
+![gambar](https://github.com/IDOYGAMING/Praktikum4/blob/main/screnshotpraktikum4.1/ss6.png)
+
+# KESIMPULAN
 Agregasi data adalah jenis proses penambahan data dan informasi dimana data dicari, dikumpulkan, dan disajikan dalam format yang dirangkum berdasarkan laporan untuk mencapi tujuan atau proses bisnis tertentu dan / atau melakukan analisis manusia. Beberapa perintah yang digunakan dalam melakukan proses agresiasi adalah :
 
 COUNT berfungsi untuk menghitung jumlah baris suatu kolom pada tabel,
