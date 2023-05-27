@@ -114,24 +114,7 @@ ALTER TABLE daftar_hewan ADD PRIMARY KEY(id);
 
 # 5. Mengisi table data_pegawai
 mySQL:
-INSERT INTO daftar_hewan
-VALUES ('p1', 'Puffball', 'Diane', 'Hamster', 'f');
-INSERT INTO daftar_hewan
-VALUES ('p2', 'Claws', 'Gwen', 'cat', 'm');
-INSERT INTO daftar_hewan
-VALUES ('p3', 'Fluffy', 'Haro 1d', 'cat', 'f');
-INSERT INTO daftar_hewan
-VALUES ('p4', 'Buffy', 'Haro 1d', 'dog', 'f');
-INSERT INTO daftar_hewan
-VALUES ('p5', 'Fang', 'Benny', 'dog', 'm');
-INSERT INTO daftar_hewan
-VALUES ('p6', 'Bowser', 'Diane', 'dog', 'm');
-INSERT INTO daftar_hewan
-VALUES ('p7', 'Chirpy', 'Gwen', 'bird', 'f');
-INSERT INTO daftar_hewan
-VALUES ('p8', 'Whistier', 'Gwen', 'bird', 'NULL');
-INSERT INTO daftar_hewan
-VALUES ('p9', 'Slim', 'Benny', 'snake', 'm');
+INSERT INTO daftar_hewan VALUES ('p1', 'Ape', 'Alex', 'Hamster', 'f'); INSERT INTO daftar_hewan VALUES ('p2', 'Bee', 'Abeng', 'cat', 'm'); INSERT INTO daftar_hewan VALUES ('p3', 'Alpaca', 'Bagas', 'cat', 'f'); INSERT INTO daftar_hewan VALUES ('p4', 'Bunga', 'Agus', 'dog', 'f'); INSERT INTO daftar_hewan VALUES ('p5', 'Fung', 'Bagus', 'dog', 'm'); INSERT INTO daftar_hewan VALUES ('p6', 'Baeng', 'Agus', 'dog', 'm'); INSERT INTO daftar_hewan VALUES ('p7', 'Armand', 'Alex', 'bird', 'f'); INSERT INTO daftar_hewan VALUES ('p8', 'Coki', 'Abeng', 'bird', 'NULL'); INSERT INTO daftar_hewan VALUES ('p9', 'Slim', 'Benny', 'snake', 'm');
 
 # 6. Menampilkan jumlah hewan yang dimiliki setiap owner
 ![gambar](https://github.com/IDOYGAMING/Praktikum4/blob/main/screnshotpraktikum4.1/ss1.png)
