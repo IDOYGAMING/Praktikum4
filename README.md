@@ -108,11 +108,11 @@ CREATE TABLE daftar_hewan (
  sex TEXT(4) NOT NULL
 );
 
-# 4. Menjadikan nim sebagai primary key
+# 4. Menjadikan id sebagai primary key
 mySQL:
 ALTER TABLE daftar_hewan ADD PRIMARY KEY(id);
 
-# 5. Mengisi table data_pegawai
+# 5. Mengisi table daftar_hewan
 mySQL:
 INSERT INTO daftar_hewan VALUES ('p1', 'Ape', 'Alex', 'Hamster', 'f'); INSERT INTO daftar_hewan VALUES ('p2', 'Bee', 'Abeng', 'cat', 'm'); INSERT INTO daftar_hewan VALUES ('p3', 'Alpaca', 'Bagas', 'cat', 'f'); INSERT INTO daftar_hewan VALUES ('p4', 'Bunga', 'Agus', 'dog', 'f'); INSERT INTO daftar_hewan VALUES ('p5', 'Fung', 'Bagus', 'dog', 'm'); INSERT INTO daftar_hewan VALUES ('p6', 'Baeng', 'Agus', 'dog', 'm'); INSERT INTO daftar_hewan VALUES ('p7', 'Armand', 'Alex', 'bird', 'f'); INSERT INTO daftar_hewan VALUES ('p8', 'Coki', 'Abeng', 'bird', 'NULL'); INSERT INTO daftar_hewan VALUES ('p9', 'Slim', 'Benny', 'snake', 'm');
 
